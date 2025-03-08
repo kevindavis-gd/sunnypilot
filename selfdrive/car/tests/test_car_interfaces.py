@@ -11,8 +11,8 @@ from opendbc.car.structs import CarParams
 from opendbc.car.tests.test_car_interfaces import get_fuzzy_car_interface_args
 from opendbc.car.fw_versions import FW_VERSIONS, FW_QUERY_CONFIGS
 from opendbc.car.mock.values import CAR as MOCK
-from openpilot.selfdrive.car.helpers import convert_carControlSP
 from opendbc.car.values import PLATFORMS
+from openpilot.selfdrive.car.helpers import convert_carControlSP
 from openpilot.selfdrive.controls.lib.latcontrol_angle import LatControlAngle
 from openpilot.selfdrive.controls.lib.latcontrol_pid import LatControlPID
 from openpilot.selfdrive.controls.lib.latcontrol_torque import LatControlTorque
